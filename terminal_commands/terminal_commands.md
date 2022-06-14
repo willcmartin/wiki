@@ -13,6 +13,11 @@
 - `-h`: human-readable
 - `-a`: all
 
+`ps` - view running processes
+ - `-a`: all
+
+`ln [target] [link name]` - link two files
+
 ## File modification
 
 `chmod [references][operator][modes] filename` - change permission mode for file
@@ -29,11 +34,6 @@
   - `r`: read
   - `w`: write
   - `x`: execute
-
-`ps` - view running processes
- - `-a`: all
-
-`ln [target] [link name]` - link two files
 
 ## Docker
 
