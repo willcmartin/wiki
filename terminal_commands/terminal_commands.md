@@ -7,6 +7,7 @@
 - `-h`: human-readable
 - `-a`: all
 - `-G`: no group names
+- `-F`: add indicator
 
 `df` - disk space
 - `-h`: human-readable
@@ -40,3 +41,5 @@
 `docker rm -vf $(docker ps -aq)` - delete all containers
 
 `docker rmi -f $(docker images -aq)` - delete all images
+
+## GIT
