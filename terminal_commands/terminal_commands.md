@@ -12,6 +12,23 @@
 - `-h`: human-readable
 - `-a`: all
 
+## File modification
+
+`chmod [references][operator][modes] filename` - change permission mode for file
+- references:
+  - `u`: user
+  - `g`: group
+  - `o`: other
+  - `a`: all
+- operator:
+  - `+`: add
+  - `-`: remove
+  - `=`: explicitly set
+- modes:
+  - `r`: read
+  - `w`: write
+  - `x`: execute
+
 ## Docker
 
 `docker images` - list images
