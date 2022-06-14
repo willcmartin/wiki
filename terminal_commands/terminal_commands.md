@@ -11,3 +11,15 @@
 `df` - disk space
 - `-h`: human-readable
 - `-a`: all
+
+## Docker
+
+`docker images` - list images
+- `-a`: all
+
+`docker ps` - list containers
+- `-a`: all
+
+`docker rm -vf $(docker ps -aq)` - delete all containers
+
+`docker rmi -f $(docker images -aq)` - delete all images
