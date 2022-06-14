@@ -16,11 +16,11 @@
 `ps` - view running processes
  - `-a`: all
 
-`ln [target] [link name]` - link two files
+`ln <target> <link_name>` - link two files
 
 ## File modification
 
-`chmod [references][operator][modes] filename` - change permission mode for file
+`chmod [references][operator][modes] <filename>` - change permission mode for file
 - references:
   - `u`: user
   - `g`: group
