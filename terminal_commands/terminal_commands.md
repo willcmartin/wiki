@@ -30,6 +30,11 @@
   - `w`: write
   - `x`: execute
 
+`ps` - view running processes
+ - `-a`: all
+
+`ln [target] [link name]` - link two files
+
 ## Docker
 
 `docker images` - list images
