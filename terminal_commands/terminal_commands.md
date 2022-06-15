@@ -21,9 +21,13 @@
 ## Redirection/Operators
 
 `>` - output to
+
 `>>` - append to
+
 `<` - input from
+
 `|` - pipe
+
 `-` - stdin/stdout
 
 ## File modification
