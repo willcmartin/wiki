@@ -18,6 +18,8 @@
 
 `ln <target> <link_name>` - link two files
 
+`printenv` - print environment variables
+
 ## Redirection/Operators
 
 `>` - output to
