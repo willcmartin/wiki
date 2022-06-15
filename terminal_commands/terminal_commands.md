@@ -52,6 +52,15 @@
 `docker build` - builds Docker images from a Dockerfile
 - `-t`: tag, name you docker image
 
+`docker run` - derive container from image
+- `--rm`: clean up, remove file system when container exits
+- `-it`: interactive
+- `--gpus <device>`: use gpu, (device=1,2,...,all)
+- `-v`: volume
+- `-e`: environment variable
+
+`docker cp <source> <container>:<dest>` - copy file/folder to docker container
+
 `docker images` - list images
 - `-a`: all
 
