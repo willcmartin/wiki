@@ -18,6 +18,14 @@
 
 `ln <target> <link_name>` - link two files
 
+## Redirection/Operators
+
+`>` - output to
+`>>` - append to
+`<` - input from
+`|` - pipe
+`-` - stdin/stdout
+
 ## File modification
 
 `chmod [references][operator][modes] <filename>` - change permission mode for file
@@ -36,6 +44,9 @@
   - `x`: execute
 
 ## Docker
+
+`docker build` - builds Docker images from a Dockerfile
+- `-t`: tag, name you docker image
 
 `docker images` - list images
 - `-a`: all
