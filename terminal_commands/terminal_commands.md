@@ -16,6 +16,8 @@
 `ps` - view running processes
  - `-a`: all
 
+`kill <PID>` - end a process using the process id (PID) found with `ps` command
+
 `ln <target> <link_name>` - link two files
 
 `printenv` - print environment variables
