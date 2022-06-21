@@ -22,6 +22,11 @@
 
 `printenv` - print environment variables
 
+`apt` - package manager
+- `list`: see versions
+- `install`
+- `remove`
+
 ## Redirection/Operators
 
 `>` - output to
