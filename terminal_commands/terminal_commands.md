@@ -27,6 +27,9 @@
 - `install`
 - `remove`
 
+`dpkg` - base Debian package manager
+- `--list`: see all installed packages
+
 ## Redirection/Operators
 
 `>` - output to
